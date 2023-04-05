@@ -1,6 +1,19 @@
+import styles from "../styles/Header.module.scss"
+
 function TodoHeader() {
+  const headerStyle = {
+    padding: '20px 0',
+    lineHeight: '1.5em',
+    color: '#aeadad',
+    textAlign: 'center',
+  };
+
   return (
-    <div className="todo-header">todos</div>
+    <div 
+    style={headerStyle}
+    className="styles.header">
+      todos
+    </div>
   )
 }
 
